@@ -125,9 +125,9 @@ def init_days_in_month(year):
     days_in_month = {} 
     days_in_month[1] = 31 # jan 
     if isleapyear(year) == 'true': 
-        days_in_month[2] = 30
+        days_in_month[2] = 29
     else:
-        days_in_month[2] = 29 
+        days_in_month[2] = 28 
     days_in_month[3] = 31 # mar
     days_in_month[4] = 30 # apr
     days_in_month[5] = 31 # may 
